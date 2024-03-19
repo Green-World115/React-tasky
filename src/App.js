@@ -70,6 +70,7 @@ class App extends Component {
 
   
   getUser = (userId) => {
+    console.log(userId)
     var users = this.state.users;
     var user = users.filter((user) => {
       return user.id == userId;
